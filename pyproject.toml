@@ -1,0 +1,14 @@
+[project]
+name = "cloud-run-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "openai>=1.82.1",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "streamlit>=1.45.1",
+    "uvicorn>=0.34.3",
+]
